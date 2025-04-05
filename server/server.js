@@ -24,7 +24,9 @@ mongoose.connect(process.env.MONGODB_URI, {
 });
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://your-vercel-app.vercel.app"
+}));
 app.use(express.json());
 
 // Result Schema
