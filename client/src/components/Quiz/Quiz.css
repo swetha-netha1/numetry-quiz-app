@@ -1,0 +1,115 @@
+/* src/components/Quiz/Quiz.css */
+.quiz {
+    background-color: whitesmoke;
+    /* Light pink container */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.user-display {
+    background-color: #e6f2ff;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #2c3e50;
+    text-align: center;
+    width: 90%;
+    /* Slightly less than full width */
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    /* Centers horizontally and adds bottom margin */
+    position: relative;
+    /* Changed from absolute to relative */
+    top: auto;
+    left: auto;
+    transform: none;
+}
+.user-display p {
+    margin: 0.5rem 0;
+}
+
+.quiz-progress {
+    color: #ff7e5f;
+    /* Peach */
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.question h3 {
+    color: #5f8d4e;
+    /* Green */
+    margin-bottom: 1.5rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #e6f2ff;
+    /* Light blue border */
+}
+
+.option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-color: #ff7e5f;
+    /* Peach border on hover */
+}
+
+.option input[type="radio"] {
+    margin-right: 1rem;
+    accent-color: #ff7e5f;
+    /* Peach radio button */
+}
+
+.option label {
+    cursor: pointer;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation button {
+    background-color: #ff7e5f;
+    /* Peach */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navigation button:hover {
+    background-color: #5f8d4e;
+    /* Green on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navigation button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}

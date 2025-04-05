@@ -1,0 +1,57 @@
+/* src/components/Home/Home.css */
+body {
+    background-color:beige;
+    /* Light blue outer background */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.home {
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    /* Light pink container */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home h1 {
+    color:purple;
+    /* Peach color for heading */
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.home p {
+    color: royalblue;
+    /* Green color for text */
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.start-button {
+    background-color: #ff7e5f;
+    /* Peach background */
+    color:black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.start-button:hover {
+    background-color: #5f8d4e;
+    /* Green on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
