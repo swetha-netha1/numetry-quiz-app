@@ -1,0 +1,155 @@
+# ========================
+# General
+# ========================
+.DS_Store
+*.log
+*.pid
+*.seed
+*.pid.lock
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+*.bak
+*.backup
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# ========================
+# Dependency Directories
+# ========================
+node_modules/
+**/node_modules/
+jspm_packages/
+bower_components/
+.pnp/
+.pnp.js
+.yarn/
+.yarn-integrity
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ========================
+# Build & Output Directories
+# ========================
+# Frontend (React)
+build/
+dist/
+out/
+.next/          # Next.js
+.nuxt/          # Nuxt.js
+.cache/         # Gatsby
+public/         # Static files (Gatsby, etc.)
+storybook-static/ # Storybook
+
+# Backend (Node.js)
+.serverless/    # Serverless
+.temp/
+.tmp/
+dll/
+
+# ========================
+# Cache & Runtime
+# ========================
+.cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ========================
+# Testing & Coverage
+# ========================
+coverage/
+.nyc_output/
+test-results/
+junit.xml
+*.lcov
+
+# ========================
+# Logs
+# ========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# ========================
+# Editor & IDE
+# ========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# ========================
+# Secrets & Certificates
+# ========================
+*.key
+*.pem
+*.crt
+*.cer
+secrets.yml
+credentials.json
+config/local.json
+
+# ========================
+# Database & Storage
+# ========================
+*.db
+*.sqlite
+*.sql
+*.dump
+uploads/
+temp/
+storage/
+data/           # Local database files
+
+# ========================
+# OS-Specific
+# ========================
+# Windows
+[Tt]humbs.db
+$RECYCLE.BIN/
+
+# Linux
+*.swp
+*~
+
+# macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# ========================
+# Package Managers
+# ========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+shrinkwrap.json
+
+# ========================
+# Misc
+# ========================
+*.tsbuildinfo
+*.pid
+*.seed
+*.pid.lock
