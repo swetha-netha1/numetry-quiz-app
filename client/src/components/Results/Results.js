@@ -9,7 +9,7 @@ function Results({ userInfo, score, onRestart }) {
   useEffect(() => {
     const saveResults = async () => {
       try {
-        const response = await axios.post('http://localhost:5000/api/results', {
+        const response = await axios.post('https://numetry-quiz-app.onrender.com', {
           name: userInfo.name,
           email: userInfo.email,
           score,
